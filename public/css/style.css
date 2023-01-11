@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     width: 100vw;
     height: 100vh;
@@ -12,76 +11,59 @@ body {
     overflow: hidden;
     background: #202124;
 }
-
 header {
     height: 10%;
     text-align: right;
 }
-
 header svg {
     width: 30px;
     opacity: 0.3;
     padding: 5px;
 }
-
 header img {
     width: 30px;
     padding: 5px;
     margin-right: 10px;
 }
-
 header svg,
 header img,
 #btn input {
     cursor: pointer;
 }
-
 header a {
     top: -15px;
     position: relative;
     margin-right: 10px;
 }
-
 a {
     text-decoration: none;
     color: inherit;
     /* pega do pai a cor*/
 }
-
 a:hover {
-
     text-decoration: underline;
 }
-
 #menu,
 #profile {
     width: 40px;
     height: 40px;
 }
-
 .circle {
     border-radius: 50%;
-
 }
-
 .circle:hover {
     background-color: rgb(233, 231, 231);
     opacity: 0.3;
 }
-
 main {
-    height: 60%;
     text-align: center;
     margin-top: 10%;
-
 }
-
 #titleGoogle,
 #searchBox,
 #btn {
     margin: 20px;
 }
-
 #searchBox {
     background: #202124;
     border: 1px solid #696969;
@@ -90,19 +72,16 @@ main {
     width: 638px;
     margin: auto;
 }
-
 #searchBox:hover {
     background-color: rgb(54 54 54 / 30%);
     box-shadow: 0 1px 6px 0 #171717;
     border-color: rgb(54 54 54 / 30%);
 }
-
 #searchBox svg,
 #searchBox img {
     width: 24px;
     margin: 8px 0;
 }
-
 #searchBox input {
     background-color: transparent;
     border: none;
@@ -114,7 +93,6 @@ main {
     top: -12px;
     padding: 0 10px;
 }
-
 #btn input {
     background-color: #363636;
     border: 1px solid transparent;
@@ -124,57 +102,45 @@ main {
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
-
 }
-
 #btn input:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
     border: 1px solid #696969;
-
 }
-
 .language {
     color: #473db1;
     cursor: pointer;
     margin-left: 5px;
 }
-
 .language:hover {
     text-decoration: underline;
 }
-
 footer {
+    margin-top: 7%;
     width: 100%;
-    height: 94px;
+    height: auto;
     background: #171717;
     color: #808080;
 }
-
 #country {
     padding: 15px 30px;
     border-bottom: 1px solid #363636;
     font-size: 15px;
 }
-
 #linksFooter {
     padding: 15px 20px;
     text-align: center;
 }
-
 #linksFooter a {
     padding: 15px;
-
 }
-
 #item1,
 #item2 {
     position: relative;
 }
-
 #item1 {
     left: -250px;
 }
-
 #item2 {
     right: -20px;
 }
